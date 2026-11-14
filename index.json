@@ -46,6 +46,18 @@
       },
       "versions": [
         {
+          "version": "0.5.9",
+          "publishTimestamp": 1794676287,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/JioJioStudio404/dsh-cn-models",
+            "commit": "2dbed93bde589eeda142bef4e3fec13456fdc8e3"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        },
+        {
           "version": "0.5.8",
           "publishTimestamp": 1794653777,
           "source": {
@@ -80,6 +92,18 @@
       },
       "versions": [
         {
+          "version": "0.4.8",
+          "publishTimestamp": 1794676289,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/JioJioStudio404/dsh-intl-models",
+            "commit": "46da680989cad5839775460fcb26e7e22ec1f335"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        },
+        {
           "version": "0.4.7",
           "publishTimestamp": 1794653778,
           "source": {
@@ -113,6 +137,18 @@
         "category": "models"
       },
       "versions": [
+        {
+          "version": "0.8.3",
+          "publishTimestamp": 1794676341,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/JioJioStudio404/dsh-custom-models",
+            "commit": "2a16ba77577d29e6f7592862be089f4a0797f9a9"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        },
         {
           "version": "0.8.2",
           "publishTimestamp": 1794653780,
