@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "title": {
+    "en": "JioJio plugins",
+    "zh": "JioJio 插件"
+  },
+  "description": {
+    "en": "DeepSeek Harness plugins by JioJioStudio404: model providers and interface additions.",
+    "zh": "JioJioStudio404 开发的 DeepSeek Harness 插件：模型接入与界面增强。"
+  },
+  "metadata": {
+    "categories": {
+      "models": {
+        "title": {
+          "en": "Model providers",
+          "zh": "模型接入"
+        }
+      },
+      "interface": {
+        "title": {
+          "en": "Interface",
+          "zh": "界面"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-cn-models",
+      "title": {
+        "en": "CN Models",
+        "zh": "国内模型"
+      },
+      "description": {
+        "en": "Chinese model vendors (DeepSeek, Kimi, Zhipu GLM / Z.ai, MiniMax, Qwen, Xiaomi MiMo, Baidu Qianfan, Tencent Cloud TokenHub): several API keys per endpoint, validity, balance and plan quota, automatic key switching.",
+        "zh": "国内模型厂商（DeepSeek、Kimi、智谱 GLM / Z.ai、MiniMax、千问、小米 MiMo、百度千帆、腾讯云 TokenHub）：每个接入点可配置多个 API Key，显示有效性、余额与套餐额度，自动切换 Key。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj48cGF0aCBkPSJNMjQuNjI5NCA4LjYzNjk2QzI2LjI4NjIgOC42MzcwNSAyNy42Mjk0IDkuOTgwMTYgMjcuNjI5NCAxMS42MzdWMTIuNzgyNUMyNy42MjkyIDE0LjQzOTEgMjYuMjg2MSAxNS43ODI0IDI0LjYyOTQgMTUuNzgyNUgyMy40ODM5QzIyLjY1MTkgMTUuNzgyNSAyMS41NDU0IDE2LjM0NTkgMjEuNTQ1NCAxNy4xNzc4VjE4LjE1NzNDMjEuNTQ1NCAxOC43NzU3IDIyLjIxNiAxOS4xOTY2IDIyLjgzNDUgMTkuMTk2NUgyNC42Mjk0QzI2LjI4NjEgMTkuMTk2NSAyNy42MjkyIDIwLjUzOTggMjcuNjI5NCAyMi4xOTY1VjIzLjk5MjRDMjcuNjI5MiAyNS42NDkxIDI2LjI4NjEgMjYuOTkyNCAyNC42Mjk0IDI2Ljk5MjRIMjIuODM0NUMyMS4xNzc4IDI2Ljk5MjQgMTkuODM0NyAyNS42NDkgMTkuODM0NSAyMy45OTI0VjIyLjE5NjVDMTkuODM0NSAyMS43MTQ4IDE5LjQ5NTcgMjEuMjMyNyAxOS4wMTQgMjEuMjMyN0gxNi40NzkyQzE1Ljc5NzUgMjEuMjMyNyAxNS4zMzc0IDIyLjAwNjEgMTUuMzM3NCAyMi42ODc3VjIzLjgzMzNDMTUuMzM3MyAyNS40OSAxMy45OTQyIDI2LjgzMzMgMTIuMzM3NCAyNi44MzMzSDExLjE5MTlDOS41MzUwOSAyNi44MzMzIDguMTkxOTggMjUuNDkgOC4xOTE4OSAyMy44MzMzVjIyLjY4NzdDOC4xOTE4OSAyMS4wMzA5IDkuNTM1MDQgMTkuNjg3NyAxMS4xOTE5IDE5LjY4NzdIMTIuMzM3NEMxMy4xOTY0IDE5LjY4NzcgMTQuMzk5OSAxOS4wOTU5IDE0LjM5OTkgMTguMjM2OVYxNi4wMTg1QzE0LjM5OTkgMTQuOTUxOCAxNS4yNjQ2IDE0LjA4NzIgMTYuMzMxMiAxNC4wODcySDE5LjQzNUMyMC4wNTk2IDE0LjA4NzIgMjAuNDg0IDEzLjQwNzEgMjAuNDgzOSAxMi43ODI1VjExLjYzN0MyMC40ODM5IDkuOTgwMTEgMjEuODI3IDguNjM2OTYgMjMuNDgzOSA4LjYzNjk2SDI0LjYyOTRaIiBmaWxsPSJ1cmwoI2EpIi8+PHJlY3QgeD0iNi45IiB5PSI3LjEiIHdpZHRoPSI4IiBoZWlnaHQ9IjgiIHJ4PSIxLjgiIGZpbGw9IiNGMDVBNEYiLz48cmVjdCB4PSI4LjciIHk9IjguOSIgd2lkdGg9IjQuNCIgaGVpZ2h0PSI0LjQiIHJ4PSIuOCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjEuMSIvPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjE1IiB5MT0iOSIgeDI9IjE1IiB5Mj0iMjciIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjNjlCOUZGIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMzI0REUyIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PC9zdmc+Cg==",
+      "author": "JioJioStudio404",
+      "homepage": "https://github.com/JioJioStudio404/dsh-cn-models#readme",
+      "repository": {
+        "url": "https://github.com/JioJioStudio404/dsh-cn-models"
+      },
+      "metadata": {
+        "category": "models"
+      },
+      "versions": [
+        {
+          "version": "0.5.8",
+          "publishTimestamp": 1794653777,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/JioJioStudio404/dsh-cn-models",
+            "commit": "2c81bb8babdfc3b4784e4ae019269060b39526b1"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-intl-models",
+      "title": {
+        "en": "International Models",
+        "zh": "国际模型"
+      },
+      "description": {
+        "en": "International model vendors (OpenAI, Anthropic, xAI, OpenRouter, OpenCode, Google Gemini, Cloudflare Workers AI, Vercel AI Gateway) and open-model hosts (Groq, DeepInfra, Novita, Hugging Face, NVIDIA): several API keys per endpoint, spending per key, automatic key switching.",
+        "zh": "国际模型厂商（OpenAI、Anthropic、xAI、OpenRouter、OpenCode、Google Gemini、Cloudflare Workers AI、Vercel AI Gateway）与开源模型托管平台（Groq、DeepInfra、Novita、Hugging Face、NVIDIA）：每个接入点可配置多个 API Key，显示每个 Key 的消费，自动切换 Key。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj48cGF0aCBkPSJNMjQuNjI5NCA4LjYzNjk2QzI2LjI4NjIgOC42MzcwNSAyNy42Mjk0IDkuOTgwMTYgMjcuNjI5NCAxMS42MzdWMTIuNzgyNUMyNy42MjkyIDE0LjQzOTEgMjYuMjg2MSAxNS43ODI0IDI0LjYyOTQgMTUuNzgyNUgyMy40ODM5QzIyLjY1MTkgMTUuNzgyNSAyMS41NDU0IDE2LjM0NTkgMjEuNTQ1NCAxNy4xNzc4VjE4LjE1NzNDMjEuNTQ1NCAxOC43NzU3IDIyLjIxNiAxOS4xOTY2IDIyLjgzNDUgMTkuMTk2NUgyNC42Mjk0QzI2LjI4NjEgMTkuMTk2NSAyNy42MjkyIDIwLjUzOTggMjcuNjI5NCAyMi4xOTY1VjIzLjk5MjRDMjcuNjI5MiAyNS42NDkxIDI2LjI4NjEgMjYuOTkyNCAyNC42Mjk0IDI2Ljk5MjRIMjIuODM0NUMyMS4xNzc4IDI2Ljk5MjQgMTkuODM0NyAyNS42NDkgMTkuODM0NSAyMy45OTI0VjIyLjE5NjVDMTkuODM0NSAyMS43MTQ4IDE5LjQ5NTcgMjEuMjMyNyAxOS4wMTQgMjEuMjMyN0gxNi40NzkyQzE1Ljc5NzUgMjEuMjMyNyAxNS4zMzc0IDIyLjAwNjEgMTUuMzM3NCAyMi42ODc3VjIzLjgzMzNDMTUuMzM3MyAyNS40OSAxMy45OTQyIDI2LjgzMzMgMTIuMzM3NCAyNi44MzMzSDExLjE5MTlDOS41MzUwOSAyNi44MzMzIDguMTkxOTggMjUuNDkgOC4xOTE4OSAyMy44MzMzVjIyLjY4NzdDOC4xOTE4OSAyMS4wMzA5IDkuNTM1MDQgMTkuNjg3NyAxMS4xOTE5IDE5LjY4NzdIMTIuMzM3NEMxMy4xOTY0IDE5LjY4NzcgMTQuMzk5OSAxOS4wOTU5IDE0LjM5OTkgMTguMjM2OVYxNi4wMTg1QzE0LjM5OTkgMTQuOTUxOCAxNS4yNjQ2IDE0LjA4NzIgMTYuMzMxMiAxNC4wODcySDE5LjQzNUMyMC4wNTk2IDE0LjA4NzIgMjAuNDg0IDEzLjQwNzEgMjAuNDgzOSAxMi43ODI1VjExLjYzN0MyMC40ODM5IDkuOTgwMTEgMjEuODI3IDguNjM2OTYgMjMuNDgzOSA4LjYzNjk2SDI0LjYyOTRaIiBmaWxsPSJ1cmwoI2EpIi8+PGNpcmNsZSBjeD0iMTAuOSIgY3k9IjExLjEiIHI9IjQuMiIgZmlsbD0iIzQ1NjFFRSIvPjxwYXRoIGQ9Ik02LjggMTEuMUgxNU0xMC45IDdDOS43IDguMiA5LjcgMTQgMTAuOSAxNS4yTTEwLjkgN0MxMi4xIDguMiAxMi4xIDE0IDEwLjkgMTUuMiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjE1IiB5MT0iOSIgeDI9IjE1IiB5Mj0iMjciIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjNDVFN0E0Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDU5MDlEIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PC9zdmc+Cg==",
+      "author": "JioJioStudio404",
+      "homepage": "https://github.com/JioJioStudio404/dsh-intl-models#readme",
+      "repository": {
+        "url": "https://github.com/JioJioStudio404/dsh-intl-models"
+      },
+      "metadata": {
+        "category": "models"
+      },
+      "versions": [
+        {
+          "version": "0.4.7",
+          "publishTimestamp": 1794653778,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/JioJioStudio404/dsh-intl-models",
+            "commit": "8549223b78a3863ab2423b330790fb91cea3dad1"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-custom-models",
+      "title": {
+        "en": "Custom Models",
+        "zh": "自定义模型"
+      },
+      "description": {
+        "en": "Your own API sites (relay stations, gateways, self-hosted and local servers) over OpenAI Chat, Responses or Anthropic Messages: several keys per site, balances and billing records, model discovery, switch groups, model verification.",
+        "zh": "接入自己的 API 站点（中转站、网关、自建与本地服务），支持 OpenAI Chat、Responses 与 Anthropic Messages：每个站点可配置多个 Key，显示余额与计费记录，自动发现模型，切换组，模型核验。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj48cGF0aCBkPSJNMjQuNjI5NCA4LjYzNjk2QzI2LjI4NjIgOC42MzcwNSAyNy42Mjk0IDkuOTgwMTYgMjcuNjI5NCAxMS42MzdWMTIuNzgyNUMyNy42MjkyIDE0LjQzOTEgMjYuMjg2MSAxNS43ODI0IDI0LjYyOTQgMTUuNzgyNUgyMy40ODM5QzIyLjY1MTkgMTUuNzgyNSAyMS41NDU0IDE2LjM0NTkgMjEuNTQ1NCAxNy4xNzc4VjE4LjE1NzNDMjEuNTQ1NCAxOC43NzU3IDIyLjIxNiAxOS4xOTY2IDIyLjgzNDUgMTkuMTk2NUgyNC42Mjk0QzI2LjI4NjEgMTkuMTk2NSAyNy42MjkyIDIwLjUzOTggMjcuNjI5NCAyMi4xOTY1VjIzLjk5MjRDMjcuNjI5MiAyNS42NDkxIDI2LjI4NjEgMjYuOTkyNCAyNC42Mjk0IDI2Ljk5MjRIMjIuODM0NUMyMS4xNzc4IDI2Ljk5MjQgMTkuODM0NyAyNS42NDkgMTkuODM0NSAyMy45OTI0VjIyLjE5NjVDMTkuODM0NSAyMS43MTQ4IDE5LjQ5NTcgMjEuMjMyNyAxOS4wMTQgMjEuMjMyN0gxNi40NzkyQzE1Ljc5NzUgMjEuMjMyNyAxNS4zMzc0IDIyLjAwNjEgMTUuMzM3NCAyMi42ODc3VjIzLjgzMzNDMTUuMzM3MyAyNS40OSAxMy45OTQyIDI2LjgzMzMgMTIuMzM3NCAyNi44MzMzSDExLjE5MTlDOS41MzUwOSAyNi44MzMzIDguMTkxOTggMjUuNDkgOC4xOTE4OSAyMy44MzMzVjIyLjY4NzdDOC4xOTE4OSAyMS4wMzA5IDkuNTM1MDQgMTkuNjg3NyAxMS4xOTE5IDE5LjY4NzdIMTIuMzM3NEMxMy4xOTY0IDE5LjY4NzcgMTQuMzk5OSAxOS4wOTU5IDE0LjM5OTkgMTguMjM2OVYxNi4wMTg1QzE0LjM5OTkgMTQuOTUxOCAxNS4yNjQ2IDE0LjA4NzIgMTYuMzMxMiAxNC4wODcySDE5LjQzNUMyMC4wNTk2IDE0LjA4NzIgMjAuNDg0IDEzLjQwNzEgMjAuNDgzOSAxMi43ODI1VjExLjYzN0MyMC40ODM5IDkuOTgwMTEgMjEuODI3IDguNjM2OTYgMjMuNDgzOSA4LjYzNjk2SDI0LjYyOTRaIiBmaWxsPSJ1cmwoI2EpIi8+PGNpcmNsZSBjeD0iMTAuOSIgY3k9IjExLjEiIHI9IjQuMiIgZmlsbD0iIzIyQzM4RSIvPjxwYXRoIGQ9Ik04LjkgMTEuMkwxMC4zIDEyLjZMMTIuOSA5LjgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjE1IiB5MT0iOSIgeDI9IjE1IiB5Mj0iMjciIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjQTc5N0ZDIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNkEzQ0U4Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PC9zdmc+Cg==",
+      "author": "JioJioStudio404",
+      "homepage": "https://github.com/JioJioStudio404/dsh-custom-models#readme",
+      "repository": {
+        "url": "https://github.com/JioJioStudio404/dsh-custom-models"
+      },
+      "metadata": {
+        "category": "models"
+      },
+      "versions": [
+        {
+          "version": "0.8.2",
+          "publishTimestamp": 1794653780,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/JioJioStudio404/dsh-custom-models",
+            "commit": "33098e3ac45bf8df40dcbf1a88c8012e9d0d3d65"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-model-picker",
+      "title": {
+        "en": "Model Picker",
+        "zh": "模型选择器"
+      },
+      "description": {
+        "en": "The composer's model selector as a cascading menu: provider, then that provider's models, then the reasoning level; the model last used shown for each provider.",
+        "zh": "对话输入框的级联模型选择器：服务商 › 该服务商的模型 › 推理等级；每个服务商显示上次使用的模型。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj48cGF0aCBkPSJNOS41IDEzLjVWMTguNUgxMi41TTE1LjUgMjEuNVYyNi41SDE4LjUiIHN0cm9rZT0iIzY1OEVGRiIgc3Ryb2tlLW9wYWNpdHk9Ii43NSIgc3Ryb2tlLXdpZHRoPSIxLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxyZWN0IHg9IjUuNSIgeT0iNy41IiB3aWR0aD0iMTQiIGhlaWdodD0iNiIgcng9IjIiIGZpbGw9InVybCgjYSkiLz48cmVjdCB4PSIxMiIgeT0iMTUuNSIgd2lkdGg9IjE0IiBoZWlnaHQ9IjYiIHJ4PSIyIiBmaWxsPSJ1cmwoI2IpIi8+PHJlY3QgeD0iMTguNSIgeT0iMjMuNSIgd2lkdGg9IjEyIiBoZWlnaHQ9IjYiIHJ4PSIyIiBmaWxsPSJ1cmwoI2MpIi8+PHBhdGggZD0iTTE1LjggOS4zTDE3LjQgMTAuNUwxNS44IDExLjdNMjIuMyAxNy4zTDIzLjkgMTguNUwyMi4zIDE5LjciIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjI3LjQiIGN5PSIyNi41IiByPSIxLjIiIGZpbGw9IiNmZmYiLz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSI1IiB5MT0iNyIgeDI9IjE5IiB5Mj0iMTQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjNjlCOUZGIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMzI0REUyIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImIiIHgxPSIxMiIgeTE9IjE1IiB4Mj0iMjYiIHkyPSIyMiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiM1NEVDRTciLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM2NThFRkYiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iYyIgeDE9IjE4IiB5MT0iMjMiIHgyPSIzMCIgeTI9IjMwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzQ1RTdBNCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA1OTA5RCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjwvc3ZnPgo=",
+      "author": "JioJioStudio404",
+      "homepage": "https://github.com/JioJioStudio404/dsh-model-picker#readme",
+      "repository": {
+        "url": "https://github.com/JioJioStudio404/dsh-model-picker"
+      },
+      "metadata": {
+        "category": "interface"
+      },
+      "versions": [
+        {
+          "version": "0.3.1",
+          "publishTimestamp": 1794653784,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/JioJioStudio404/dsh-model-picker",
+            "commit": "d674615192cf8d2b7d9a497642932ef9e869a2b5"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-context-bar",
+      "title": {
+        "en": "Context Bar",
+        "zh": "上下文占用条"
+      },
+      "description": {
+        "en": "A segmented context bar in the composer's status bar: how full the conversation's context is, on every route, with where auto-compaction starts.",
+        "zh": "输入框状态栏中的上下文占用条：分段显示当前会话的上下文占用，适用于所有线路，并标出自动压缩的位置。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj48cmVjdCB4PSI0LjUiIHk9IjEzLjUiIHdpZHRoPSI0LjYiIGhlaWdodD0iOSIgcng9IjEuNiIgZmlsbD0idXJsKCNhKSIvPjxyZWN0IHg9IjEwLjMiIHk9IjEzLjUiIHdpZHRoPSI0LjYiIGhlaWdodD0iOSIgcng9IjEuNiIgZmlsbD0idXJsKCNhKSIvPjxyZWN0IHg9IjE2LjEiIHk9IjEzLjUiIHdpZHRoPSI0LjYiIGhlaWdodD0iOSIgcng9IjEuNiIgZmlsbD0idXJsKCNhKSIvPjxyZWN0IHg9IjIxLjkiIHk9IjEzLjUiIHdpZHRoPSI0LjYiIGhlaWdodD0iOSIgcng9IjEuNiIgZmlsbD0iIzY1OEVGRiIgZmlsbC1vcGFjaXR5PSIuMzUiLz48cmVjdCB4PSIyNy43IiB5PSIxMy41IiB3aWR0aD0iMy44IiBoZWlnaHQ9IjkiIHJ4PSIxLjYiIGZpbGw9IiM2NThFRkYiIGZpbGwtb3BhY2l0eT0iLjIiLz48cGF0aCBkPSJNMjcuMSA5LjVWMjYuNSIgc3Ryb2tlPSIjQTc5N0ZDIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik0yNS40IDguMkgyOC44TDI3LjEgMTAuMloiIGZpbGw9IiNBNzk3RkMiLz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSI0IiB5MT0iMTMiIHgyPSIyMSIgeTI9IjIzIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzU0RUNFNyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzY1OEVGRiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjwvc3ZnPgo=",
+      "author": "JioJioStudio404",
+      "homepage": "https://github.com/JioJioStudio404/dsh-context-bar#readme",
+      "repository": {
+        "url": "https://github.com/JioJioStudio404/dsh-context-bar"
+      },
+      "metadata": {
+        "category": "interface"
+      },
+      "versions": [
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1794653782,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/JioJioStudio404/dsh-context-bar",
+            "commit": "f7aedd6f6d939ad5b44d826e2dafc47c91e598f0"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        }
+      ]
+    }
+  ]
+}
