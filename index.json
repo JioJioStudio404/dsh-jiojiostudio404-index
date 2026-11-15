@@ -138,6 +138,18 @@
       },
       "versions": [
         {
+          "version": "0.9.0",
+          "publishTimestamp": 1794736913,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/JioJioStudio404/dsh-custom-models",
+            "commit": "568d7f7c6daf38eee520ea8b2189cac8f8c890ae"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        },
+        {
           "version": "0.8.3",
           "publishTimestamp": 1794676341,
           "source": {
@@ -190,6 +202,40 @@
             "type": "git",
             "url": "https://github.com/JioJioStudio404/dsh-model-picker",
             "commit": "d674615192cf8d2b7d9a497642932ef9e869a2b5"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-token-insights",
+      "title": {
+        "en": "Token Insights",
+        "zh": "Token 用量"
+      },
+      "description": {
+        "en": "A Usage tab with the tokens of every model call DeepSeek Harness logged (subagents and compaction included): totals, cache hit rate, composition, a calendar of daily usage, the trend, providers and models, active hours. Counted locally from the session logs.",
+        "zh": "「用量」标签：统计 DeepSeek Harness 记录的每次模型调用的 Token（含子代理与上下文压缩）——总量、缓存命中率、构成、每日用量日历、趋势、服务商与模型、活跃时段；在本机从对话记录统计。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj48cmVjdCB4PSI2LjUiIHk9IjE5LjUiIHdpZHRoPSI0LjgiIGhlaWdodD0iOSIgcng9IjEuNiIgZmlsbD0idXJsKCNhKSIvPjxyZWN0IHg9IjEyLjgiIHk9IjE1IiB3aWR0aD0iNC44IiBoZWlnaHQ9IjEzLjUiIHJ4PSIxLjYiIGZpbGw9InVybCgjYSkiLz48cmVjdCB4PSIxOS4xIiB5PSIxNy41IiB3aWR0aD0iNC44IiBoZWlnaHQ9IjExIiByeD0iMS42IiBmaWxsPSJ1cmwoI2EpIi8+PHJlY3QgeD0iMjUuNCIgeT0iMTIiIHdpZHRoPSI0LjgiIGhlaWdodD0iMTYuNSIgcng9IjEuNiIgZmlsbD0idXJsKCNhKSIvPjxwYXRoIGQ9Ik04LjkgMTQuMkwxNS4yIDkuNkwyMS41IDEyLjFMMjcuOCA2LjgiIHN0cm9rZT0iI0E3OTdGQyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48Y2lyY2xlIGN4PSIyNy44IiBjeT0iNi44IiByPSIyIiBmaWxsPSIjQTc5N0ZDIi8+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iNiIgeTE9IjEyIiB4Mj0iMzAiIHkyPSIyOSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiM1NEVDRTciLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM2NThFRkYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48L3N2Zz4K",
+      "author": "JioJioStudio404",
+      "homepage": "https://github.com/JioJioStudio404/dsh-token-insights#readme",
+      "repository": {
+        "url": "https://github.com/JioJioStudio404/dsh-token-insights"
+      },
+      "metadata": {
+        "category": "interface"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794736886,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/JioJioStudio404/dsh-token-insights",
+            "commit": "db2273fb4c55a6bec16021209b4bbe66e2f80568"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1"

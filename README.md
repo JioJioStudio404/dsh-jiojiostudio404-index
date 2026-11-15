@@ -24,6 +24,7 @@ JioJioStudio404 开源的 DeepSeek Harness 插件索引。添加到 DeepSeek Har
 | [自定义模型（dsh-custom-models）](https://github.com/JioJioStudio404/dsh-custom-models) | 接入自己的 API 站点：多 Key、余额与计费记录、模型发现、模型核验 |
 | [模型选择器（dsh-model-picker）](https://github.com/JioJioStudio404/dsh-model-picker) | 对话输入框的级联模型选择器：服务商 › 模型 › 推理等级 |
 | [上下文占用条（dsh-context-bar）](https://github.com/JioJioStudio404/dsh-context-bar) | 输入框状态栏中的上下文占用条，标出自动压缩的位置 |
+| [Token 用量（dsh-token-insights）](https://github.com/JioJioStudio404/dsh-token-insights) | 「用量」标签：每次模型调用的 Token 统计、每日用量日历、趋势、服务商与模型 |
 
 ## 兼容性
 
