@@ -46,6 +46,18 @@
       },
       "versions": [
         {
+          "version": "0.5.10",
+          "publishTimestamp": 1795145368,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/JioJioStudio404/dsh-cn-models",
+            "commit": "10c6bc48673db3e7ffe5ff8fe9f6649aff0241d1"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        },
+        {
           "version": "0.5.9",
           "publishTimestamp": 1794676287,
           "source": {
@@ -92,6 +104,18 @@
       },
       "versions": [
         {
+          "version": "0.4.9",
+          "publishTimestamp": 1795145389,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/JioJioStudio404/dsh-intl-models",
+            "commit": "554e70f2a5b2cec748afc99b998af022115e1ca5"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        },
+        {
           "version": "0.4.8",
           "publishTimestamp": 1794676289,
           "source": {
@@ -137,6 +161,18 @@
         "category": "models"
       },
       "versions": [
+        {
+          "version": "0.9.1",
+          "publishTimestamp": 1795145397,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/JioJioStudio404/dsh-custom-models",
+            "commit": "016a025462b5145ce8ef1a443aacbe92f80a4ee1"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        },
         {
           "version": "0.9.0",
           "publishTimestamp": 1794736913,
@@ -229,6 +265,18 @@
         "category": "interface"
       },
       "versions": [
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1795145407,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/JioJioStudio404/dsh-token-insights",
+            "commit": "a782f08fe4f5d3ba55ae3041bf4ff9fa834f5215"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        },
         {
           "version": "0.1.0",
           "publishTimestamp": 1794736886,
